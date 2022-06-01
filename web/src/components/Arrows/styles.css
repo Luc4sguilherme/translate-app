@@ -1,0 +1,19 @@
+.arrow-container {
+  margin: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  background-color: transparent;
+  border: none;
+}
+
+.arrow-container:hover {
+  cursor: pointer;
+  background-color: #5f6064;
+}
+
+.arrow-container svg {
+  width: 26px;
+  height: 26px;
+  fill: #5a5a5d;
+}

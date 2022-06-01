@@ -1,0 +1,20 @@
+.input .delete {
+  position: relative;
+  left: 265px;
+  top: -156px;
+  font-size: 45px;
+  color:#bdc1c6;
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+}
+
+.input .delete:hover {
+  cursor: pointer;
+  background-color: #5f6064;
+}

@@ -1,0 +1,19 @@
+.select-drop-down {
+  background-color: transparent;
+  border: none;
+}
+
+.select-drop-down input {
+  color: #8ab4f8;
+  padding: 5px 15px;
+  font-size: 15px;
+}
+
+.select-drop-down .down-arrow svg {
+  position: relative;
+  left: 120px;
+  top: -33px;
+  width: 26px;
+  height: 26px;
+  fill: #8ab4f8;
+}

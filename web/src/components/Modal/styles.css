@@ -1,0 +1,85 @@
+.option-list {
+  width: 100%;
+}
+
+.option-container {
+  height: 250px;
+  overflow: auto;
+}
+
+.option-list ul {
+  margin: 15px;
+  padding: 0;
+  height: 1300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.option-list li {
+  list-style-type: none;
+}
+
+.option-list li button {
+  color: #bdc1c6;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  background-color: transparent;
+}
+
+.option-list li button:hover {
+  background-color: #5a5a5d;
+}
+
+.search-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.search-bar input {
+  background: url(https://www.gstatic.com/images/icons/material/system/2x/search_grey600_24dp.png)
+    right 8px center no-repeat;
+  background-size: 24px 24px;
+  padding-left: 16px;
+  padding-right: 40px;
+  width: 90% !important;
+  outline: none;
+}
+
+.search-bar .close-button {
+  background-color: transparent;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.search-bar .close-button:hover {
+  cursor: pointer;
+  background-color: #5f6064;
+}
+
+.search-bar .close-button svg {
+  width: 30px;
+  height: 30px;
+  fill: #5a5a5d;
+}
+
+.list-item {
+  display: flex;
+}
+
+.list-item .icon {
+  padding: 8px;
+  width: 11px;
+  color: #8ab4f8;
+}

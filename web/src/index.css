@@ -1,0 +1,56 @@
+* {
+  font-family: arial,sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #202124;
+  display: flex;
+  justify-content:center;
+  height: 100vh;
+  align-items: center;
+}
+
+.App {
+  display: flex;
+  width: 652px;
+  height: 360px;
+}
+
+.output, 
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+textarea {
+  background-color: transparent;
+  color: #bdc1c6;
+  border: none;
+  resize: none;
+  padding: 10px;
+  width: 280px !important;
+  height: 146px;
+  border-radius: 10px;
+  outline: none;
+  overflow: auto;
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.output textarea {
+  background-color: #303134
+}
+
+input {
+  border: 1px solid #818588;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #bdc1c6;
+  font-size: 14px;
+  height: 40px;
+  background-color: transparent;
+  width: 100%;
+  
+}
